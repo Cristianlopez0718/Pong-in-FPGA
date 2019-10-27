@@ -1,7 +1,9 @@
 # Pong-in-FPGA
 Implemented a VGA controller to get a connection between a FPGA and a monitor. Begun the project by establishing static objects for the ball, paddle and the wall. Then took input from a switch to move the paddle up or down and changed the ball movement depending on the boundaries reached. 
 
-25MhzCLK - divideds the clock into a 25Mhz clock to sync VGA signal.
+Top_module - structutal verilog which connects all the files to interface to the FPGA
+
+25MhzCLK - divideds the clock into a 25Mhz clock to sync the VGA signal.
 
 VGA_Sync - updates horizontal and vertical pixels displayed on the screen
 
